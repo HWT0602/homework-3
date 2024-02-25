@@ -1,0 +1,92 @@
+.tourdates {
+  background-color: #000000;
+  color: white;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.tourdates .subtitle {
+  color: white;
+}
+.tourdates .month {
+  background-color: white;
+  color: gray;
+  border: 1px solid gray;
+  width: 90%;
+  margin: 40px auto;
+}
+.tourdates .month .item {
+  display: flex;
+  border: 1px solid gray;
+  line-height: 40px;
+  padding-left: 15px;
+}
+.tourdates .month .item .soldout {
+  background-color: red;
+  color: white;
+  line-height: 20px;
+  height: 50%;
+  margin: auto 20px;
+  padding: 2px 8px;
+}
+.tourdates .month .item .count {
+  background-color: black;
+  height: 50%;
+  line-height: 30px;
+  margin: auto 40px;
+  width: 30px;
+  border-radius: 50px;
+  color: white;
+  text-align: center;
+  margin-left: auto;
+}
+.tourdates .city .item {
+  background-color: white;
+  width: 90%;
+  margin: 40px auto;
+  color: black;
+  padding-bottom: 20px;
+}
+.tourdates .city .item img {
+  width: 100%;
+  opacity: 1;
+}
+.tourdates .city .item .title {
+  font-size: 15px;
+  letter-spacing: 0px;
+  font-weight: 700;
+  text-align: left;
+  margin-left: 20px;
+}
+.tourdates .city .item .subtitle {
+  color: #000000;
+  font-size: 15px;
+  text-align: left;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.tourdates .city .item .content {
+  margin-bottom: 15px;
+  margin-left: 20px;
+  padding-left: 0;
+}
+.tourdates .city .item .buy {
+  background-color: black;
+  color: white;
+  padding: 4px 8px;
+  width: 30%;
+  margin-left: 20px;
+  line-height: 30px;
+  text-align: center;
+}
+.tourdates .city .item .buy:hover {
+  background-color: #ccc;
+  color: black;
+}
+.tourdates .city .item .pic {
+  background-color: black;
+}
+.tourdates .city .item img:hover {
+  opacity: 0.6;
+}
+
+/*# sourceMappingURL=tourdates.css.map */

@@ -1,0 +1,64 @@
+.header {
+    background-color: black;
+    display: flex;
+    padding: 0 0;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    opacity: 3;
+
+    .item {
+        color: white;
+        line-height: 43px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .item:hover {
+        background-color: #ccc;
+        color: black;
+    }
+
+    .button {
+        padding: 0;
+        background-color: black;
+        color: white;
+        display: block;
+        width: 60px;
+        text-align: center;
+        line-height: 43px;
+        height: 43px;
+    }
+
+    .button:hover {
+        background-color: #ccc;
+        color: black;
+    }
+    
+
+    .nav {
+        position: absolute;
+        top: 43px;
+        opacity: 1;
+        background-color: black;
+        width: 100%;
+
+
+
+        a {
+            display: block;
+        }
+
+        .item {
+            color: white;
+            line-height: 43px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .item:hover {
+            background-color: #ccc;
+            color: black;
+        }
+    }
+}

@@ -1,0 +1,35 @@
+.theband {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    .show_pic {
+        display: flex;
+        flex-direction: column;
+
+        .name {
+            text-align: center;
+        }
+
+        .pic {
+            text-align: center;
+        }
+
+        @media (min-width: 575px) {
+            flex-direction: row;
+        }
+    }
+
+
+
+    .name {
+        margin: 15px 0;
+    }
+
+    img {
+        width: 60%;
+    }
+
+    .pic {
+        margin-bottom: 30px;
+    }
+}

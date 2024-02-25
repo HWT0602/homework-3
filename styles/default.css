@@ -1,0 +1,310 @@
+.header {
+  background-color: black;
+  display: flex;
+  padding: 0 0;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  opacity: 3;
+}
+.header .item {
+  color: white;
+  line-height: 43px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.header .item:hover {
+  background-color: #ccc;
+  color: black;
+}
+.header .button {
+  padding: 0;
+  background-color: black;
+  color: white;
+  display: block;
+  width: 60px;
+  text-align: center;
+  line-height: 43px;
+  height: 43px;
+}
+.header .button:hover {
+  background-color: #ccc;
+  color: black;
+}
+.header .nav {
+  position: absolute;
+  top: 43px;
+  opacity: 1;
+  background-color: black;
+  width: 100%;
+}
+.header .nav a {
+  display: block;
+}
+.header .nav .item {
+  color: white;
+  line-height: 43px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.header .nav .item:hover {
+  background-color: #ccc;
+  color: black;
+}
+
+.hero {
+  padding-top: 43px;
+}
+.hero .slides img {
+  width: 100%;
+}
+
+.theband {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.theband .show_pic {
+  display: flex;
+  flex-direction: column;
+}
+.theband .show_pic .name {
+  text-align: center;
+}
+.theband .show_pic .pic {
+  text-align: center;
+}
+@media (min-width: 575px) {
+  .theband .show_pic {
+    flex-direction: row;
+  }
+}
+.theband .name {
+  margin: 15px 0;
+}
+.theband img {
+  width: 60%;
+}
+.theband .pic {
+  margin-bottom: 30px;
+}
+
+.tourdates {
+  background-color: #000000;
+  color: white;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.tourdates .subtitle {
+  color: white;
+}
+.tourdates .month {
+  background-color: white;
+  color: gray;
+  border: 1px solid gray;
+  width: 90%;
+  margin: 40px auto;
+}
+.tourdates .month .item {
+  display: flex;
+  border: 1px solid gray;
+  line-height: 40px;
+  padding-left: 15px;
+}
+.tourdates .month .item .soldout {
+  background-color: red;
+  color: white;
+  line-height: 20px;
+  height: 50%;
+  margin: auto 20px;
+  padding: 2px 8px;
+}
+.tourdates .month .item .count {
+  background-color: black;
+  height: 50%;
+  line-height: 30px;
+  margin: auto 40px;
+  width: 30px;
+  border-radius: 50px;
+  color: white;
+  text-align: center;
+  margin-left: auto;
+}
+.tourdates .city .item {
+  background-color: white;
+  width: 90%;
+  margin: 40px auto;
+  color: black;
+  padding-bottom: 20px;
+}
+.tourdates .city .item img {
+  width: 100%;
+  opacity: 1;
+}
+.tourdates .city .item .title {
+  font-size: 15px;
+  letter-spacing: 0px;
+  font-weight: 700;
+  text-align: left;
+  margin-left: 20px;
+}
+.tourdates .city .item .subtitle {
+  color: #000000;
+  font-size: 15px;
+  text-align: left;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.tourdates .city .item .content {
+  margin-bottom: 15px;
+  margin-left: 20px;
+  padding-left: 0;
+}
+.tourdates .city .item .buy {
+  background-color: black;
+  color: white;
+  padding: 4px 8px;
+  width: 30%;
+  margin-left: 20px;
+  line-height: 30px;
+  text-align: center;
+}
+.tourdates .city .item .buy:hover {
+  background-color: #ccc;
+  color: black;
+}
+.tourdates .city .item .pic {
+  background-color: black;
+}
+.tourdates .city .item img:hover {
+  opacity: 0.6;
+}
+
+.contact {
+  width: 100%;
+  padding: 64px 16px;
+  box-sizing: border-box;
+  margin-bottom: 100px;
+}
+.contact .fa-solid {
+  margin-right: 20px;
+}
+.contact .info {
+  margin-bottom: 20px;
+}
+.contact .info .item {
+  margin-bottom: 10px;
+  width: 100%;
+}
+.contact .input {
+  width: 100%;
+}
+.contact .input input {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 30px;
+  border: 1px solid gray;
+}
+.contact .input .last {
+  margin-top: 10px;
+}
+.contact .input button {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  padding: 8px 16px;
+  font-size: 15px;
+  float: right;
+  margin-top: 16px;
+}
+.contact .input button:hover {
+  background-color: #ccc;
+  color: black;
+  border: 1px solid #ccc;
+}
+
+.bigroad img {
+  width: 100%;
+}
+
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer .icon {
+  text-align: center;
+  font-size: 20px;
+  color: gray;
+}
+.footer .icon .fa-brands:hover {
+  opacity: 0.6;
+}
+.footer .subtitle {
+  font-style: normal;
+  font-size: 14px;
+}
+.footer .subtitle a {
+  text-decoration: underline;
+  color: black;
+}
+
+html {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+}
+
+.title {
+  letter-spacing: 4px;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+  margin: 10px 0;
+  font-size: 30px;
+  text-align: center;
+}
+
+.subtitle {
+  color: gray;
+  font-style: italic;
+  margin-bottom: 25px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.content {
+  font-size: 15px;
+  margin: 15px 0;
+  line-height: 1.5;
+  text-align: justify;
+  padding: 0 10px;
+  margin-bottom: 60px;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  padding: 4px 8px;
+  width: 30%;
+  margin-left: 20px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: #ccc;
+  color: black;
+}
+
+.hide {
+  display: none;
+}
+
+/*# sourceMappingURL=default.css.map */

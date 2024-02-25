@@ -1,0 +1,22 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer .icon {
+  text-align: center;
+  font-size: 20px;
+  color: gray;
+}
+.footer .icon .fa-brands:hover {
+  opacity: 0.6;
+}
+.footer .subtitle {
+  font-style: normal;
+  font-size: 14px;
+}
+.footer .subtitle a {
+  text-decoration: underline;
+  color: black;
+}
+
+/*# sourceMappingURL=footer.css.map */
