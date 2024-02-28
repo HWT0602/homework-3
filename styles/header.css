@@ -31,6 +31,26 @@
   background-color: #ccc;
   color: black;
 }
+@media (min-width: 600px) {
+  .header #hamburger {
+    display: none;
+  }
+}
+.header #search {
+  color: white;
+  float: right;
+  margin-right: 88px;
+  cursor: pointer;
+  display: none;
+}
+@media (min-width: 600px) {
+  .header #search {
+    display: inline-block;
+  }
+}
+.header #search:hover {
+  background-color: #f44336;
+}
 .header .nav {
   position: absolute;
   top: 43px;
@@ -38,18 +58,57 @@
   background-color: black;
   width: 100%;
 }
+@media (min-width: 600px) {
+  .header .nav {
+    display: block;
+    top: 0;
+    left: 88px;
+  }
+}
 .header .nav a {
   display: block;
+}
+@media (min-width: 600px) {
+  .header .nav a {
+    display: inline-block;
+  }
 }
 .header .nav .item {
   color: white;
   line-height: 43px;
   padding-left: 20px;
   padding-right: 20px;
+  margin: 0;
 }
 .header .nav .item:hover {
   background-color: #ccc;
   color: black;
+}
+@media (min-width: 600px) {
+  .header .nav .disappear {
+    display: none;
+  }
+}
+.header .nav .appear {
+  position: relative;
+  display: none;
+  cursor: pointer;
+}
+.header .nav .appear .menu {
+  background-color: white;
+  position: absolute;
+  left: 0;
+  width: 170px;
+}
+.header .nav .appear .menu .item {
+  width: 130px;
+  color: black;
+  cursor: pointer;
+}
+@media (min-width: 600px) {
+  .header .nav .appear {
+    display: inline-block;
+  }
 }
 
 /*# sourceMappingURL=header.css.map */

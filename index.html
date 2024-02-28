@@ -11,15 +11,29 @@
 <body>
     <div class="header">
         <a href="#home" class="item hide-button5">HOME</a>
-        <div class="button" id="hamburger">
-            <i class="fa-solid fa-bars"></i>
-        </div>
         <div class="nav hide" id="menu">
             <!-- <a href="#home" class="item">HOME</a> -->
             <a href="#band" class="item hide-button1">BAND</a>
             <a href="#tour" class="item hide-button2">TOUR</a>
             <a href="#contact" class="item hide-button3">CONTACT</a>
-            <a href="" class="item hide-button4">MARCH</a>
+            <a href="" class="item disappear hide-button4">MARCH</a>
+            <div class="appear item hide-button6">
+                MORE
+                <i class="fa-solid fa-caret-down"></i>
+                <div class="menu" id="more">
+                    <div class="hide-menu hide">
+                        <a class="item">Merchandise</a>
+                        <a class="item">Extras</a>
+                        <a class="item">Media</a>
+                    </div>
+                </div>
+            </div>
+            <div class="button" id="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+        <div class="button" id="hamburger">
+            <i class="fa-solid fa-bars"></i>
         </div>
 
     </div>
@@ -118,31 +132,36 @@
     <div class="contact" id="contact">
         <div class="title">CONTACT</div>
         <div class="subtitle">Fan? Drop a note!</div>
-        <div class="info">
-            <div class="item">
-                <i class="fa-solid fa-location-dot"></i> Chicago, US
+        <div class="warp">
+            <div class="info">
+                <div class="item">
+                    <i class="fa-solid fa-location-dot"></i> Chicago, US
+                </div>
+                <div class="item">
+                    <i class="fa-solid fa-phone"></i>Phone: +00 151515
+                </div>
+                <div class="item">
+                    <i class="fa-solid fa-envelope"></i>Email: mail@mail.com
+                </div>
             </div>
-            <div class="item">
-                <i class="fa-solid fa-phone"></i>Phone: +00 151515
-            </div>
-            <div class="item">
-                <i class="fa-solid fa-envelope"></i>Email: mail@mail.com
+            <div class="input">
+                <div class="flex">
+
+                    <div class="item">
+                        <input type="text" placeholder="Name">
+                    </div>
+                    <div class="item">
+                        <input type="text" placeholder="Email">
+                    </div>
+                </div>
+                <div class="item">
+                    <input class="last" type="text" placeholder="Message">
+                </div>
             </div>
         </div>
-        <div class="input">
-            <div class="item">
-                <input type="text" placeholder="Name">
-            </div>
-            <div class="item">
-                <input type="text" placeholder="Email">
-            </div>
-            <div class="item">
-                <input class="last" type="text" placeholder="Message">
-            </div>
-            <button class="button" type="submit">
-                SEND
-            </button>
-        </div>
+        <button class="button" type="submit">
+            SEND
+        </button>
     </div>
     <div class="bigroad">
         <img src="img/map.jpg" alt="">
